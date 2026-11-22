@@ -1,0 +1,50 @@
+./abogadosya/node_modules
+./abogadosya-mvp/__pycache__/
+./abogadosya-mvp/venv/
+./abogadosya-mvp/abogadosya.db
+./abogadosya-mvp/.env
+
+
+
+
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+./abogadosya/node_modules/
+
+# Expo
+./abogadosya/.expo/
+./abogadosya/dist/
+./abogadosya/web-build/
+./abogadosya/expo-env.d.ts
+
+# Native
+./abogadosya/.kotlin/
+./abogadosya/*.orig.*
+./abogadosya/*.jks
+./abogadosya/*.p8
+./abogadosya/*.p12
+./abogadosya/*.key
+./abogadosya/*.mobileprovision
+
+# Metro
+./abogadosya/.metro-health-check*
+
+# debug
+./abogadosya/npm-debug.*
+./abogadosya/yarn-debug.*
+./abogadosya/yarn-error.*
+
+# macOS
+./abogadosya/.DS_Store
+./abogadosya/*.pem
+
+# local env files
+./abogadosya/.env*.local
+
+# typescript
+./abogadosya/*.tsbuildinfo
+
+# generated native folders
+./abogadosya/ios
+./abogadosya/android
