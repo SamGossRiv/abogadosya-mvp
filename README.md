@@ -11,17 +11,18 @@ Primer incremento funcional de **AbogadosYA** para el Primer Parcial de Práctic
 ## Instalación y arranque
 
 1. Clonar el repositorio
+2. cd /abogadosya-mvp
 
 ## (Backend API)
 
-2. ingresar al directorio /server:
+3. ingresar al directorio /server:
 
    ```bash
    git clone [https://github.com/SamGossRiv/abogadosya-mvp.git](https://github.com/SamGossRiv/abogadosya-mvp.git)
    cd server
    ```
 
-3. Crear y activar el entorno virtual:
+4. Crear y activar el entorno virtual:
    - **Windows:**
      ```cmd
      python3 -m venv venv (comando alternativo: py -m venv venv)
@@ -33,13 +34,13 @@ Primer incremento funcional de **AbogadosYA** para el Primer Parcial de Práctic
      source venv/bin/activate
      ```
 
-4. Instalar dependencias dentro del entorno virtual:
+5. Instalar dependencias dentro del entorno virtual:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-5. Iniciar el servidor de desarrollo:
+6. Iniciar el servidor de desarrollo:
 
    ```bash
    fastapi dev main.py
@@ -50,13 +51,13 @@ Primer incremento funcional de **AbogadosYA** para el Primer Parcial de Práctic
 
 ## (Frontend)
 
-6. Navegar al directorio /client en una nueva terminal:
+7. Navegar al directorio /client en una nueva terminal:
    ```bash
      cd /client
    ```
-7. Dentro de el archivo config.js, colocar la IP de la computadora local en la variable LAN_HOST. Luego, instalar la app Expo Go de la playstore en un dispositivo físico (android en este caso para playstore, no se hicieron pruebas con dispositivos iOS)y escanear el código QR que aparecerá al momento de iniciar la app con npx expo start. La IP mostrada dentro de la app al escanear el QR debe ser la misma incertada en el archivo config.js. Asegúrese de tener su computadora y su dispositivo físico conectados a la misma red wifi.
+8. Dentro de el archivo config.js, colocar la IP de la computadora local en la variable LAN_HOST. Luego, instalar la app Expo Go de la playstore en un dispositivo físico (android en este caso para playstore, no se hicieron pruebas con dispositivos iOS)y escanear el código QR que aparecerá al momento de iniciar la app con npx expo start. La IP mostrada dentro de la app al escanear el QR debe ser la misma incertada en el archivo config.js. Asegúrese de tener su computadora y su dispositivo físico conectados a la misma red wifi.
 
-8. instalar dependencias de nodejs e iniciar app expo:
+9. instalar dependencias de nodejs e iniciar app expo:
    ```bash
      npm install
      npx expo start
